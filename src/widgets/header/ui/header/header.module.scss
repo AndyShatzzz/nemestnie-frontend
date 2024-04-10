@@ -1,0 +1,26 @@
+.headerContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 64px;
+  background-color: rgb(25, 118, 210);
+  box-shadow:
+    rgba(0, 0, 0, 0.2) 0px 2px 4px -1px,
+    rgba(0, 0, 0, 0.14) 0px 4px 5px 0px,
+    rgba(0, 0, 0, 0.12) 0px 1px 10px 0px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.button {
+  width: 250px;
+  height: 35px;
+  color: #fff;
+  text-decoration: none;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}

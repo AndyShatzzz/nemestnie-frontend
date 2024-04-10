@@ -1,0 +1,67 @@
+.container {
+  width: 100vw;
+  // height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.form {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.jobInput {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 800px !important;
+  margin-bottom: 40px !important;
+}
+
+.nameArticleInput {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 800px !important;
+  height: 100px !important;
+}
+
+.textArticleInput {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 800px !important;
+}
+
+p::first-letter {
+  margin-left: 20px;
+}
+
+.articleWrapper {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  border-radius: 20px;
+}
+
+.regContainer {
+  position: relative !important;
+  display: flex !important;
+  justify-content: center !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+.stickyContainer {
+  position: sticky !important;
+  top: 80px !important;
+  margin-bottom: 20px !important;
+  z-index: 10 !important;
+}

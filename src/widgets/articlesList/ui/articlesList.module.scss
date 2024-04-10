@@ -1,0 +1,28 @@
+.link {
+  background-color: #ececec !important;
+  width: 350px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  text-decoration: none !important;
+  padding: 20px !important;
+  margin-right: 20px !important;
+  margin-bottom: 20px !important;
+  border-radius: 16px !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+}
+
+.avatar {
+  width: 130px !important;
+  height: 130px !important;
+  background-color: white !important;
+}
+
+a.text:active,
+a.text:hover,
+a.text,
+a {
+  text-decoration: none;
+  color: #000;
+}
